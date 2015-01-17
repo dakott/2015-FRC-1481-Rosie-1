@@ -2,7 +2,9 @@
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{F02A8E17-7514-4C09-96FE-8DF62BC399B8}" Type="Ref">/Target/Globals.lvlib/Accel Offsets</Property>
+	<Property Name="varPersistentID:{081E6C31-D601-4C1E-B830-2E2F78133525}" Type="Ref">/Target/Globals.lvlib/Copied Motions</Property>
+	<Property Name="varPersistentID:{A5B9ED91-7121-4DC1-8294-726611F5E896}" Type="Ref">/Target/Accel Library.lvlib/accel offset</Property>
+	<Property Name="varPersistentID:{FC6B557D-A926-41A9-A2D7-10A97BEA547F}" Type="Ref">/Target/Globals.lvlib/Stop Playback</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -137,7 +139,8 @@ DirectoryIndex index.htm
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Globals.lvlib" Type="Library" URL="../Globals.lvlib"/>
+		<Item Name="Accel Library.lvlib" Type="Library" URL="../Accel Library.lvlib"/>
+		<Item Name="Globals.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Examples/Record And Playback Motion/Globals.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
