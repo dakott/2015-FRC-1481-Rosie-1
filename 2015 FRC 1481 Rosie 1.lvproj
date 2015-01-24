@@ -128,8 +128,12 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
+			<Item Name="Auto Drive Begin.vi" Type="VI" URL="../Auto Drive Begin.vi"/>
+			<Item Name="Auto Drive.vi" Type="VI" URL="../Auto Drive.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Bo Peep Auton.vi" Type="VI" URL="../Bo Peep Auton.vi"/>
+			<Item Name="Bo Peep Begin.vi" Type="VI" URL="../Bo Peep Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
@@ -138,9 +142,7 @@ DirectoryIndex index.htm
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
-		<Item Name="Auto Drive.vi" Type="VI" URL="../Auto Drive.vi"/>
 		<Item Name="Globals.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Examples/Record And Playback Motion/Globals.lvlib"/>
-		<Item Name="Robot Global Data.vi" Type="VI" URL="/F/2011 Robot Project Test - Latest/Robot Global Data.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="WPI_SonarSRF04DigitalGetRange.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_SonarSRF04DigitalGetRange.vi"/>
 		<Item Name="WPI_SonarSRF04DigitalOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Ultrasonic/WPI_SonarSRF04DigitalOpen.vi"/>
