@@ -50,6 +50,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.Deployment_DownloadInstallerPath" Type="Path"></Property>
 		<Property Name="target.Deployment_SilentInstallation" Type="Bool">false</Property>
@@ -128,11 +129,13 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Auto Drive Begin.vi" Type="VI" URL="../Auto Drive Begin.vi"/>
 			<Item Name="Auto Drive.vi" Type="VI" URL="../Auto Drive.vi"/>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Bin Hugger Begin.vi" Type="VI" URL="../Bin Hugger Begin.vi"/>
+			<Item Name="Bin Hugger Interface.vi" Type="VI" URL="../Bin Hugger Interface.vi"/>
 			<Item Name="Bin Winch Begin.vi" Type="VI" URL="../Bin Winch Begin.vi"/>
 			<Item Name="Bin Winch Close.vi" Type="VI" URL="../Bin Winch Close.vi"/>
 			<Item Name="Bin Winch Interface.vi" Type="VI" URL="../Bin Winch Interface.vi"/>
@@ -158,10 +161,11 @@ DirectoryIndex index.htm
 			<Item Name="Vacuum Begin.vi" Type="VI" URL="../Vacuum Begin.vi"/>
 			<Item Name="Vacuum Status.vi" Type="VI" URL="../Vacuum Status.vi"/>
 			<Item Name="Vacuum.vi" Type="VI" URL="../Vacuum.vi"/>
-			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="Auton Drive Forward.vi" Type="VI" URL="../Auton Drive Forward.vi"/>
 		</Item>
 		<Item Name="Globals.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Examples/Record And Playback Motion/Globals.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		<Item Name="Teleop Drive.vi" Type="VI" URL="../Teleop Drive.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -549,6 +553,7 @@ DirectoryIndex index.htm
 				<Item Name="WPI_CAN_PCMGlobal.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobal.vi"/>
 				<Item Name="WPI_CAN_PCMGlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMGlobalOps.ctl"/>
 				<Item Name="WPI_CAN_PCMMessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMMessageIDs.ctl"/>
+				<Item Name="WPI_CAN_PCMReceive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMReceive.vi"/>
 				<Item Name="WPI_CAN_PCMSend.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PCM/WPI_CAN_PCMSend.vi"/>
 				<Item Name="WPI_CAN_PDPCommands.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPCommands.ctl"/>
 				<Item Name="WPI_CAN_PDPDecode4Currents.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/PDP/WPI_CAN_PDPDecode4Currents.vi"/>
@@ -810,16 +815,16 @@ DirectoryIndex index.htm
 				<Item Name="WPI_ServoDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoDeviceRef.ctl"/>
 				<Item Name="WPI_ServoGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoGetSetRefNum.vi"/>
 				<Item Name="WPI_ServoOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoOpen.vi"/>
-				<Item Name="WPI_ServoRefNum Registry Get.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Get.vi"/>
 				<Item Name="WPI_ServoRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoRefNum Registry Set.vi"/>
-				<Item Name="WPI_ServoSetAngle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetAngle.vi"/>
-				<Item Name="WPI_ServoSetPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoSetPosition.vi"/>
 				<Item Name="WPI_ServoToPWM.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/PWM/Servo/WPI_ServoToPWM.vi"/>
 				<Item Name="WPI_SolenoidCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCache.vi"/>
 				<Item Name="WPI_SolenoidCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidCacheOp.ctl"/>
 				<Item Name="WPI_SolenoidChannel.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidChannel.ctl"/>
 				<Item Name="WPI_SolenoidDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDevRef.ctl"/>
 				<Item Name="WPI_SolenoidDoesDevRefExist.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidDoesDevRefExist.vi"/>
+				<Item Name="WPI_SolenoidGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGet.vi"/>
+				<Item Name="WPI_SolenoidGetBool.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/Deprecated/WPI_SolenoidGetBool.vi"/>
+				<Item Name="WPI_SolenoidGetEnum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGetEnum.vi"/>
 				<Item Name="WPI_SolenoidGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidGetSetRefNum.vi"/>
 				<Item Name="WPI_SolenoidOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpen.vi"/>
 				<Item Name="WPI_SolenoidOpenDouble.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Solenoid/WPI_SolenoidOpenDouble.vi"/>
@@ -914,7 +919,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
