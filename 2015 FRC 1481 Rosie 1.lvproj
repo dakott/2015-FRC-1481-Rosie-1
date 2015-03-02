@@ -144,6 +144,8 @@ DirectoryIndex index.htm
 			<Item Name="Bin Winch Close.vi" Type="VI" URL="../Bin Winch Close.vi"/>
 			<Item Name="Bin Winch Interface.vi" Type="VI" URL="../Bin Winch Interface.vi"/>
 			<Item Name="Bin Winch Periodic.vi" Type="VI" URL="../Bin Winch Periodic.vi"/>
+			<Item Name="Bin Winch tension measurement begin.vi" Type="VI" URL="../Bin Winch tension measurement begin.vi"/>
+			<Item Name="Bin Winch tension measurement interface.vi" Type="VI" URL="../Bin Winch tension measurement interface.vi"/>
 			<Item Name="Bo Peep Auton.vi" Type="VI" URL="../Bo Peep Auton.vi"/>
 			<Item Name="Bo Peep Begin.vi" Type="VI" URL="../Bo Peep Begin.vi"/>
 			<Item Name="Button Event.vi" Type="VI" URL="../Button Event.vi"/>
@@ -936,7 +938,7 @@ DirectoryIndex index.htm
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
