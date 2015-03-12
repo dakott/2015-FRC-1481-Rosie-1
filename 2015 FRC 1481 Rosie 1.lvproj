@@ -129,7 +129,7 @@ DirectoryIndex index.htm
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Auto Drive Begin.vi" Type="VI" URL="../Auto Drive Begin.vi"/>
 			<Item Name="Auto Drive.vi" Type="VI" URL="../Auto Drive.vi"/>
 			<Item Name="Auto Select Begin.vi" Type="VI" URL="../Auto Select Begin.vi"/>
@@ -144,8 +144,8 @@ DirectoryIndex index.htm
 			<Item Name="Bin Winch Close.vi" Type="VI" URL="../Bin Winch Close.vi"/>
 			<Item Name="Bin Winch Interface.vi" Type="VI" URL="../Bin Winch Interface.vi"/>
 			<Item Name="Bin Winch Periodic.vi" Type="VI" URL="../Bin Winch Periodic.vi"/>
-			<Item Name="Bin Winch tension measurement begin.vi" Type="VI" URL="../Bin Winch tension measurement begin.vi"/>
 			<Item Name="Bin Winch tension measurement interface.vi" Type="VI" URL="../Bin Winch tension measurement interface.vi"/>
+			<Item Name="Bin Winch tension measurement begin.vi" Type="VI" URL="../Bin Winch tension measurement begin.vi"/>
 			<Item Name="Bo Peep Auton.vi" Type="VI" URL="../Bo Peep Auton.vi"/>
 			<Item Name="Bo Peep Begin.vi" Type="VI" URL="../Bo Peep Begin.vi"/>
 			<Item Name="Button Event.vi" Type="VI" URL="../Button Event.vi"/>
