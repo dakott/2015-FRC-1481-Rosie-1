@@ -167,6 +167,10 @@ DirectoryIndex index.htm
 			<Item Name="Vacuum Begin.vi" Type="VI" URL="../Vacuum Begin.vi"/>
 			<Item Name="Vacuum Status.vi" Type="VI" URL="../Vacuum Status.vi"/>
 			<Item Name="Vacuum.vi" Type="VI" URL="../Vacuum.vi"/>
+			<Item Name="Auton #3 one green bin begin.vi" Type="VI" URL="../Auton #3 one green bin begin.vi"/>
+			<Item Name="Auton #3 one green bin.vi" Type="VI" URL="../Auton #3 one green bin.vi"/>
+			<Item Name="Auton single bo peep begin.vi" Type="VI" URL="../Auton single bo peep begin.vi"/>
+			<Item Name="auton single bo peep.vi" Type="VI" URL="../auton single bo peep.vi"/>
 		</Item>
 		<Item Name="Globals.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Dynamixel Motor/Examples/Record And Playback Motion/Globals.lvlib"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
